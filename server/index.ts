@@ -1,5 +1,5 @@
 import { config } from "dotenv";
-// Load secrets from .dev.vars (OPENAI_API_KEY, ...) before anything else.
+// Load secrets from .dev.vars (OPENAI_API_KEY, ...) 
 config({ path: ".dev.vars" });
 
 import express from "express";
